@@ -13,8 +13,8 @@
     <tr><td>Titles</td><td>Price</td><td>Tags</td><td>Platforms</td>
     %for row in rows:
         <tr>
-        %for col in row:
-            <td>{{col}}</td>
+        %for direction,values in row.items():
+            <td>{{values}}</td>
         %end
         </tr>
     %end
