@@ -7,10 +7,10 @@
     <title>Steam games</title>
 </head>
 <body>
-    <p>New releases on Steam:</p>
-    <table border="1">
+    <font face="arial" size=6 color=#0000FF>New releases on Steam:</font>
+    <table border="5" style="width:100%" bordercolor="#008000">
 
-    <tr><td>Titles</td><td>Price</td><td>Tags</td><td>Platforms</td>
+    <tr><td align=center>Titles</td><td align=center>Price</td><td align=center>Tags</td><td align=center>Platforms</td>
     %for row in rows:
         <tr>
         %for direction,values in row.items():
